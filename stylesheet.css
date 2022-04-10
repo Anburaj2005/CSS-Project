@@ -1,0 +1,141 @@
+*body{
+    margin: 0px;
+    padding:0px;
+    font-size: 10px;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body,html{
+    width:100%;
+    height: 100vh;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* .card-1:nth-child(1){
+    max-width: 0px;
+    padding-top:0px
+} */
+.card-1:nth-child(1){
+   max-width: 30px;
+    padding-left:100px;
+    max-width: 70px;
+    
+}
+.card-1 :nth-child(3){
+    color:white;
+    padding-left:5%
+}
+.card-1 :nth-child(4){
+    margin-left:5px;
+    border:1px solid white;
+    
+
+}
+
+.card-1 :nth-child(5){
+    color:white;
+    padding-left:5%
+}
+#box-1{
+    float:right;
+    max-width:145px;
+    padding-top :100px;
+    padding-right: 5%;
+}
+
+
+
+
+
+
+
+  .info :nth-child(2){
+    max-width: 70px;
+    
+      padding-top:100px;
+      padding-left:50px ;
+
+  }
+
+.info :nth-child(3){
+    padding-left:50px;
+    color:white;
+    line-height: 0.5rem;
+
+}
+
+ .info :nth-child(4){
+    margin-left:50px;
+     margin-right:200px;
+     border:1px solid white;
+
+ }
+
+
+
+.info :nth-child(5){
+   margin-right: 20px;
+   color:white;
+   padding-left:50px
+
+}
+
+.info :nth-child(2){
+    max-width: 70px;
+    
+      padding-top:100px;
+      padding-left:50px ;
+
+  }
+
+.info :nth-child(3){
+    padding-left:50px;
+    color:white;
+    line-height: 0.5rem;
+
+}
+
+ .info :nth-child(4){
+    margin-left:50px;
+     margin-right:200px;
+     border:1px solid white;
+
+ }
+
+
+
+.info :nth-child(5){
+   margin-right: 20px;
+   color:white;
+   padding-left:50px
+
+}
+
+
+
+
+
+
+.card-1,.card-2,.card-4{
+    background:orange;
+    box-sizing: border-box;
+    min-height: 50vh;
+}
+
+@media screen and (max-width:768px){
+    .grid-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width:320px){
+    .grid-container{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(6,1fr);
+    }
+}
